@@ -76,7 +76,8 @@ def output_header(j)
   badge        = j['badge']
   num_projects = j['projects'].count
 
-  o = "# " + title +" "+ badge
+  o = "<!--lint disable awesome-heading-->\n"
+  o << "# " + title +" "+ badge
   o << header + "\n"
   o << "\n\n"
   o << output_table(num_projects)
@@ -92,7 +93,7 @@ end
 
 def output_table(num_projects)
   o = "![](https://img.shields.io/badge/Contents-#{num_projects}-green)"
-  o << " ![](https://img.shields.io/github/last-commit/dotintent/awesome-ble/main)"
+  o << " ![](https://img.shields.io/github/last-commit/dotintent/awesome-visionos/main)"
   o
 end
 
