@@ -1,0 +1,69 @@
+{
+  "title": "Awesome visionOS",
+  "badge": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)",
+  "header": "\n\nvisionOS: the new OS developed by Apple for their AR device(s), actually support Apple Vision Pro.\n\nA collaborative list of Awesome visionOS resources by [🔴 intent](https://withintent.com).",
+  "header_contributing": "Please take a quick look at the [contribution guidelines](.github/CONTRIBUTING.md) first.\n\nIf you see an entry longer maintained or is not a good fit, please submit a pull request to improve this file.\n\nThank you to all [contributors](https://github.com/dotintent/awesome-visionos/graphs/contributors); you rock!\n",
+  "categories": [
+    {
+      "title": "Documentation",
+      "id": "documentation",
+      "description": "Official specifications, standards, and technical documentation about visionOS."
+    },
+    {
+      "title": "Sample",
+      "id": "sample",
+      "description": "Sample code to showcase visionOS functionalities and learn how to use it."
+    }
+  ],
+  "projects": [
+    {
+        "title": "visionOS",
+        "category": "documentation",
+        "description": "Official documentation about visionOS platform.",
+        "homepage": "https://developer.apple.com/visionos/",
+        "tags": ["visionos", "documentation", "official", "apple"]
+    },
+    {
+        "title": "Designing for visionOS",
+        "category": "documentation",
+        "description": "HIG (Human Interface Guidelines) to develop visionOS based applications.",
+        "homepage": "https://developer.apple.com/design/human-interface-guidelines/designing-for-visionos/",
+        "tags": ["visionos", "documentation", "official", "apple", "ui", "ux"]
+    },
+    {
+        "title": "Diorama",
+        "category": "sample",
+        "description": "A sample to showcase how to use Reality Composer Pro to design scenes in visionOS.",
+        "homepage": "https://developer.apple.com/documentation/visionos/diorama/",
+        "tags": ["visionos", "sample", "official", "apple", "scene", "reality-composer-pro"]
+    },
+    {
+        "title": "Happy Beam",
+        "category": "sample",
+        "description": "A sample to showcase how to integrate ARKit in your mixed reality experience.",
+        "homepage": "https://developer.apple.com/documentation/visionos/happybeam",
+        "tags": ["visionos", "sample", "official", "apple", "arkit", "swiftui", "realitykit"]
+    },
+    {
+        "title": "Destination Video",
+        "category": "sample",
+        "description": "A sample to showcase how to implement 3D video and spatial audio experience.",
+        "homepage": "https://developer.apple.com/documentation/visionos/destination-video",
+        "tags": ["visionos", "sample", "official", "apple", "avfoundation", "video"]
+    },
+    {
+        "title": "Hello World",
+        "category": "sample",
+        "description": "Hello World is now AR, here we have a little example of boilerplate app for visionOS in SwiftUI showcasing how to use windows, volumes, and immersive spaces.",
+        "homepage": "https://developer.apple.com/documentation/visionos/world",
+        "tags": ["visionos", "sample", "official", "apple", "hello-world", "swiftui", "window", "volume", "immersive-space"]
+    },
+    {
+        "title": "Accessibility Guidelines",
+        "category": "documentation",
+        "description": "A collection, explained by examples, of good accessibility practices for visionOS.",
+        "homepage": "https://developer.apple.com/documentation/visionos/improving-accessibility-support-in-your-app",
+        "tags": ["visionos", "documentation", "official", "apple", "accessibility"]
+    }
+  ]
+}
